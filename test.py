@@ -14,6 +14,3 @@ def get_response_GPT(request_for_GPT):
 
 #print(f"Result:", get_response_GPT(request_for_GPT))
 
-a = pow(8,2,4)
-
-print(a)
