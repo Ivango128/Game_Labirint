@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1 align="center">Приветствую! Выберите действие:</h1><br>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a class="btn btn-outline-secondary btn-lg" role="button" href="/1">Первое</a>
+        <a class="btn btn-outline-secondary btn-lg" role="button" href="/2">Второе</a>
+        <a class="btn btn-outline-secondary btn-lg" role="button" href="/3">Третье</a>
+        <a class="btn btn-outline-secondary btn-lg" role="button" href="/4">Четвертое</a>
+        <a class="btn btn-primary btn-lg" role="button" href="/support">Помощь ИИ</a>
+    </div>
+</div>
+{% endblock %}
